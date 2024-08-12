@@ -1,0 +1,96 @@
+@font-face{
+    font-family: timer;
+    src: url(/Fonts/time.ttf)
+}
+@font-face{
+    font-family: team;
+    src: url(/Fonts/team.otf)
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(/Images/Background-pic.png);
+    background-size: covr;
+    height: 100vh;
+}
+
+.team-score{
+    text-align: center;
+    width: 40vw;
+    height: 90vh;
+}
+.home-team-score{
+    color: #FBBF24;
+}
+.guest-team-score{
+    color: #34D399;
+}
+.team{
+    padding-left: 100;
+    margin-top: 40px;
+    font-family: team;
+    font-size: 50px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.score{
+    width: 80px;
+    background-color: black;
+    font-size: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-bottom: 3px;
+    padding-top: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family: timer;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin: auto 10vh;
+    font-size: auto;
+}
+
+.home-team-score button{
+    background-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    padding: 6px;
+    font-family: timer;
+    border: 1px solid #FBBF24;
+}
+.home-team-score button:hover,
+.home-team-score button:focus,
+.home-team-score button:active {
+    background-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    padding: 6px;
+    font-family: timer;
+    border: 1px solid #FBBF24;
+    
+    
+    color: #FBBF24;
+    padding: 6px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.guest-team-score button{
+        background-color: rgba(0,0,0,0);
+    border-radius: 4px;
+    padding: 6px;
+    font-family: timer;
+    border: 1px solid #34D399;
+}
